@@ -1,0 +1,289 @@
+/*********
+*
+*  General Stuff
+*
+*********/
+body{
+	margin:				0;
+	padding:			0;
+	background-color: 	#99ccff;
+	font-family: 		Impact,Charcoal,sans-serif;
+	font-size:			25px;
+	height:				auto;
+	color:				#fff;
+	overflow-x:			hidden;
+}
+a{
+	color:				white;
+	text-decoration:	none;
+}
+h1, h2, h3, h4, h5, h6{
+	padding:			0px;
+	margin:				0px;
+	letter-spacing:		1px;
+}
+h1{
+	font-size:			40px;
+}
+h2{
+	font-size:			35px;
+}
+h3{
+	font-size:			32px;
+}
+h4{
+	font-size:			30px;
+}
+h5{
+	font-size:			27px;
+}
+h6{
+	font-size:			25px;
+}
+p{
+	font-family:		Verdana, Geneva, sans-serif;
+	font-size:			18px;
+	padding:			0px;
+	margin-top:			0px;
+}
+/*********
+*
+*  Topbar Navigation
+*
+*********/
+#topbar-main{
+	width: 				100%;
+	height:				100px;
+	background-color:	#ff9933;
+	z-index:			20;
+}
+.topbar-container{
+	display:			inline-block;
+}
+.logo-container{
+	display:			inline-block;
+}
+#topbar-center{
+	position:			relative;
+	margin:				0 auto;
+	width:				900px;
+}
+#topbar-logo{
+	position:			relative;
+	width:				500px;
+}
+#topbar-logo-text{
+	position:			absolute;
+	top:				10px;
+	left:				100px;
+	z-index:			2;
+	width:				300px;
+	margin-top:			10px;
+}
+#topbar-nav{
+	width:				300px;
+	padding-left:		60px;
+	margin-bottom:		85px;
+	vertical-align:		middle;
+}
+nav a{
+	margin-left:		5px;
+	display:			inline-block;
+	color:				white;
+	height:				22px;
+	margin-bottom:		10px;
+}
+nav a:hover{
+	background-color:	#99ccff;
+}
+/*********
+*
+*  Wrapper
+*
+*********/
+#wrapper-main{
+	position:			relative;
+	top:				0px;
+	z-index:			1;
+	margin:				0 auto;
+	width:				900px;
+	height:				auto;
+	background-color:	#fff;
+}
+/**********
+*
+*  Homepage
+*
+**********/
+#home-collage{
+	position:			absolute;
+	top:				-40;
+	z-index:			10;
+	background-image:	url('../images/collage-insanity.png');
+	background-repeat:	no-repeat;
+	width:				900px;
+	height:				666px;
+}
+#collage-message{
+	margin-top:			60px;
+	margin-left:		40px;
+	background-color:	#ff9933;
+	color:				white;
+	width:				350px;
+	height:				70px;
+	line-height:		120%;
+}
+#collage-message h4{
+	padding-top:		1.5%;
+	text-align:			center;
+}
+#home-about{
+	position:			absolute;
+	top:				666px;
+	z-index:			10;
+	background-color:	#ff9933;
+	width:				900px;
+	height:				675px;
+}
+.about-item{
+	display:			block;
+}
+#about-image{
+	width:				900px;
+	height:				75px;
+	background-image:	url('../images/about-me.jpg');
+}
+#about-top-text{
+	padding-top:		20px;
+	margin-left:		100px;
+	color:				white;
+
+}
+#about-row1{
+	width:				900px;
+	height:				265px;
+	margin-top:			20px;
+}
+#about-row1 p{
+	float:				left;
+	margin-left:		20px;
+}
+#about-row1 img{
+	float:				right;
+	margin-right:		20px;
+	margin-bottom:		20px;
+}
+#about-row2{
+	width:				900px;
+	height:				300px;
+	margin-bottom:		50px;
+}
+#about-row2 img{
+	float:				left;
+	margin-left:		20px;
+}
+#about-row2 p{
+	float:				right;
+	margin-right:		20px;
+}
+#home-exp{
+	position:			absolute;
+	top:				1341px;
+	z-index:			10;
+	background-color:	white;
+	width:				900px;
+	height:				600px;
+	color:				#ff9933;
+}
+#exp-image{
+	width:				900px;
+	height:				75px;
+	background-image:	url('../images/work-experience.jpg');
+}
+#exp-top-text{
+	padding-top:		20px;
+	margin-left:		100px;
+	color:				#ff9933;
+
+}
+#exp2-place{
+	width:				900px;
+	height:				200px;
+}
+#exp2-left{
+	padding:			0px;
+	margin:				0;
+	margin-left:		20px;
+	float:				left;
+}
+#exp2-right{
+	margin-right:		20px;
+	float:				right;
+}
+#exp1-place{
+	width:				900px;
+	height:				200px;
+}
+#exp1-left{
+	padding:			0px;
+	margin:				0;
+	margin-left:		20px;
+	float:				left;
+}
+#exp1-right{
+	margin-right:		20px;
+	float:				right;
+}
+#home-footer{
+	position:			absolute;
+	top:				1941px;
+	z-index:			10;
+	background-color:	#ff9933;
+	width:				900px;
+	height:				100px;
+}
+#home-footer-text{
+	padding-top:		15px;
+	text-align:			center;
+}
+/**********
+*
+*  Footer (well, not really the footer, that's a part of each wrapper thing)
+*
+**********/
+.cloud{
+	overflow-x:			hidden;
+	z-index:			-10;
+	position:			absolute;
+	margin-left:		-300px;
+}
+#cloud1{
+	top:300px;
+}
+#cloud2{
+	top:600px;
+}
+#cloud3{
+	top:900px;
+}
+#cloud4{
+	top:1200px;
+}
+#cloud5{
+	top:450px;
+}
+#cloud6{
+	top:750px;
+}
+#cloud7{
+	top:150px;
+}
+#cloud8{
+	top:150px;
+}
+#cloud9{
+	top:1350px;
+}
+#cloud0{
+	top:1500px;
+}
